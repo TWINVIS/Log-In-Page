@@ -1,0 +1,98 @@
+.App {
+  background-image: url('./components/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+  background-color: #ccc;
+}
+
+.Login-form-container {
+  background-image: url('./components/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+  background-size: 82% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 40%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Login-form {
+  vertical-align: middle;
+  height: 100vh;
+  width: 420px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.Login-form-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-80%);
+  padding-left: 12%;
+  padding-right: 12%;
+  bottom: 0px;
+}
+
+.Login-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.password-input {
+  border-left-style: solid;
+  border-left: 20px;
+}
+
+label {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+input {
+  margin-top: 1%;
+  padding: 10px;
+  width: 100%;
+  border-style: solid;
+  border-left-width: 10px;
+  border-color: rgb(98, 98, 212);
+  outline: none;
+}
+
+
+.btn {
+  width: 100%;
+  border-radius: 0;
+  background-color: rgb(98, 98, 212);
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(74, 74, 158);
+}
+
+img {
+  width: 600px;
+  height: 100px;
+}
+
+.form-check-input[type='checkbox']:checked {
+  background-color: rgb(98, 98, 212);
+  border-color: rgb(98, 98, 212);
+}
+
+hr {
+  border: 1px solid rgb(174, 179, 184);
+  margin-bottom: 7%;
+}
+
+.register-link {
+  display: flex;
+  position: relative;
+  width: 100%;
+  top: 50%;
+  transform: translateY(200%);
+}

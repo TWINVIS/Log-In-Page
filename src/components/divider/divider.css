@@ -1,0 +1,19 @@
+.divider-container{
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(70%);
+    align-items: center;
+}
+
+.divider-border{
+    border-bottom: 1px solid rgb(174, 179, 184);
+    width: 100%;
+}
+
+.divider-content{
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+    padding: 0 10px 0 10px;
+}
